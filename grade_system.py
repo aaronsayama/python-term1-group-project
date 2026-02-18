@@ -44,14 +44,20 @@ def display_results(marks, average, grade):
     print("="*30)
 
 def main():
-    print("GRADE SYSTEM")
-    print("------------")
-    
-    marks = get_marks()
-    average = calculate_average(marks)
-    grade = get_grade(average)
-    
-    display_results(marks, average, grade)
+    while True:
+        print("\nGRADE SYSTEM")
+        print("------------")
+        
+        marks = get_marks()
+        average = calculate_average(marks)
+        grade = get_grade(average)
+        
+        display_results(marks, average, grade)
+        
+        again = input("\nTry again? (y/n): ").lower()
+        if again != 'y':
+            print("Goodbye!")
+            break
 
 if __name__ == "__main__":
     main()
