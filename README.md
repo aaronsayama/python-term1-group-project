@@ -3,7 +3,7 @@
 ## 👥 TEAM MEMBERS
 - **Aaron** (Student A)
 - **Joan** (Student B)
-
+- **MUTAUFA CODERS** (GROUP NAME)
 ## 📋 PROJECT OVERVIEW
 This project contains solutions to 5 Python programming questions demonstrating:
 - Python basics
